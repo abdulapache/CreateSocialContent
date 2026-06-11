@@ -18,7 +18,7 @@ export default function App() {
     setResult('');
 
     try {
-      const response = await fetch('https://localhost:7177/api/generate-stream', {
+      const response = await fetch('https://elitesocialcontent.runasp.net/api/generate-stream', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
