@@ -17,7 +17,7 @@ export default function App() {
 
     try {
       // Connect to your local .NET Minimal API streaming endpoint
-      const response = await fetch('http://localhost:5100/api/generate-stream', {
+      const response = await fetch('http://elitesocialcontent.runasp.net/api/generate-stream', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
